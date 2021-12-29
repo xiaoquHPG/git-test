@@ -1,0 +1,35 @@
+如何在idea里面使用git呢 首先我们在 c盘的用户目录下找到 git.config 配置文件  跟他同目录 下创建一个 git.ignore文件
+[core]  把这个 写入config
+C:\Users\Lenovo\git.ignore
+
+写入到 ignore 就可以了
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+hs_err_pid*
+
+.classpath
+.project
+.settings
+target
+.idea
+*.iml
+
+在idea里面 我们点击 VCS create git 库       上面那些东西就发挥作用了 他们其实是 除去跟我们项目无关的东西 ，很重要
+各种操作进行右键add  commit就可以了
