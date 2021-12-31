@@ -33,3 +33,5 @@ target
 
 在idea里面 我们点击 VCS create git 库       上面那些东西就发挥作用了 他们其实是 除去跟我们项目无关的东西 ，很重要
 各种操作进行右键add  commit就可以了
+
+提交成功后 点右下角的 git就可以了 查看版本 checkout 回溯就可以了
