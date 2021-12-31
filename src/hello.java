@@ -6,5 +6,6 @@ public class hello {
         System.out.println("首先我得提交一次");
         System.out.println("然后切换回我的master");
         System.out.println("1231");
+        System.out.println("hot-fix test");
     }
 }
