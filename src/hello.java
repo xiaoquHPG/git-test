@@ -7,5 +7,6 @@ public class hello {
         System.out.println("然后切换回我的master");
         System.out.println("1231");
         System.out.println("master test");
+        System.out.println("hot-fix test");
     }
 }
