@@ -5,5 +5,6 @@ public class hello {
         System.out.println("我合并分支了");
         System.out.println("首先我得提交一次");
         System.out.println("然后切换回我的master");
+        System.out.println("1231");
     }
 }
