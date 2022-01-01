@@ -39,3 +39,12 @@ target
 
 如何在idea进行分支的合并呢 首先我们先进入别的版本进行修改然后进行提交，提交了后，进行切换回我们的master 然后进行merge的合并 可以选中yours 或 theirs
 选中自己的版本或者他的版本 进行合并 就可以了
+
+在idea里面碰见合并冲突的问题的时候 跟之前的git一样 首先 我的master 进行和 一次修改然后进行添加和 提交 ，再次进入到我们的 分支版本 进行一次修改然后进行
+添加和提交 切换会 master 进行 合并 首先 会碰见一个问题代码冲突 点击 merge idea会显示我们的冲突的代码 中间是我们将要显示的代码  左和右是别的两个版本
+需要我们手动去进行代码的选中;
+
+如何在idea里面登录github账号呢  进入setting version github  用token登录，   token哪里来呢    我们去github 点setting  再点一个下面菜单的setting
+personal access token   生成一个新的token复制 粘贴到idea就可以了
+
+如何用 idea分享项目到github上面呢   首先我们点上面的git  找shareproject github点就可以了
